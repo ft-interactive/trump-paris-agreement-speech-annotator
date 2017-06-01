@@ -42,10 +42,10 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: 'Donald Trump takes the US out of the Paris climate deal — annotated',
+  title: 'Trump transcript on Paris climate deal exit - annotated',
 
   // meta data
-  description: 'Mr Trump’s full speech with FT correspondents’ notes and comments',
+  description: 'Analysis of the president\'s Rose Garden speech',
 
   /*
   TODO: Select Twitter card type -
