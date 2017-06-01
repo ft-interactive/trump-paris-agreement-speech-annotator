@@ -62,8 +62,8 @@ export default () => ({ // eslint-disable-line
   */
   // General social
   socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod-us.s3.amazonaws.com%2Fe61fde10-4703-11e7-8d27-59b4dd6296b8?source=next&fit=scale-down&width=1200',
-  socialHeadline: '',
-  socialSummary: '',
+  socialHeadline: 'Trump transcript on Paris climate deal exit - annotated',
+  socialSummary: 'Analysis of the president\'s Rose Garden speech',
 
   // TWITTER
   twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod-us.s3.amazonaws.com%2Fe61fde10-4703-11e7-8d27-59b4dd6296b8?source=next&fit=scale-down&width=1800',
