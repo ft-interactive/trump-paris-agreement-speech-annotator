@@ -1,6 +1,4 @@
-# [trump-first-address](https://ig.ft.com/sites/trump-first-address)
 
-Donald Trump's address to Congress, [annotated](https://ig.ft.com/sites/trump-first-address), February 28, 2017.
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][devdeps-image]][devdeps-url]
 
