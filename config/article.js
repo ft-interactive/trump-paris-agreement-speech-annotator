@@ -4,34 +4,32 @@ export default () => ({ // eslint-disable-line
   id: '',
 
   // canonical URL of the published page
-  // https://ig.ft.com/trump-paris-agreement-annotator get filled in by the ./configure script
-  url: 'https://ig.ft.com/trump-paris-agreement-annotator',
+  // https://ig.ft.com/sites/federal-reserve-march-meeting-2017 get filled in by the ./configure script
+  url: '',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: 'Donald Trump takes the US out of the Paris climate deal — annotated',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Mr Trump’s full speech with FT correspondents’ notes and comments',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'Donald Trump',
+    url: 'https://www.ft.com/donald-trump',
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    text: '',
+    url: '',
   },
 
   mainImage: {
     title: '',
     description: '',
-    credit: '',
-    url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
+    url: '',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -39,15 +37,15 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Pilita Clark', url: 'https://www.ft.com/topics/people/Pilita_Clark' },
+    { name: 'Lauren Leatherby', url: 'https://www.ft.com/lauren-leatherby' },
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'Donald Trump takes the US out of the Paris climate deal — annotated',
 
   // meta data
-  description: '',
+  description: 'Mr Trump’s full speech with FT correspondents’ notes and comments',
 
   /*
   TODO: Select Twitter card type -
@@ -63,35 +61,19 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  // socialImage: '',
-  // socialHeadline: '',
-  // socialDescription: '',
-  // twitterCreator: '@author's_account', // shows up in summary_large_image cards
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod-us.s3.amazonaws.com%2Fe61fde10-4703-11e7-8d27-59b4dd6296b8?source=next&fit=scale-down&width=1200',
+  socialHeadline: '',
+  socialSummary: '',
 
-  // TWEET BUTTON CUSTOM TEXT
-  // tweetText: '',
-  // twitterRelatedAccounts: ['authors_account_here', 'ftdata'], // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
-
-  // Fill out the Facebook/Twitter metadata sections below if you want to
-  // override the General social options above
-
-  // TWITTER METADATA (for Twitter cards)
-  // twitterImage: '',
-  // twitterHeadline: '',
-  // twitterDescription: '',
+  // TWITTER
+  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod-us.s3.amazonaws.com%2Fe61fde10-4703-11e7-8d27-59b4dd6296b8?source=next&fit=scale-down&width=1800',
+  twitterCreator: '@ft',
+  // tweetText:  '',
+  //twitterHeadline:  'Trump\'s #Inauguration speech transcript, annotated',
 
   // FACEBOOK
-  // facebookImage: '',
+  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod-us.s3.amazonaws.com%2Fe61fde10-4703-11e7-8d27-59b4dd6296b8?source=next&fit=scale-down&width=1800',
   // facebookHeadline: '',
-  // facebookDescription: '',
-
-  //ADVERTISING
-  ads: {
-    // ad unit hierarchy makes ads more granular. Start with ft.com and /companies /markets /world as appropriate to your story
-    gptAdunit: 'ft.com/companies/european',
-    // granular targeting is optional and will be specified by the ads team
-    dftTargeting: '',
-  },
 
   tracking: {
 

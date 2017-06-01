@@ -1,6 +1,6 @@
-# [trump-paris-agreement-annotator](https://ig.ft.com/trump-paris-agreement-annotator)
+# [trump-first-address](https://ig.ft.com/sites/trump-first-address)
 
-> 
+Donald Trump's address to Congress, [annotated](https://ig.ft.com/sites/trump-first-address), February 28, 2017.
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][devdeps-image]][devdeps-url]
 
@@ -25,7 +25,7 @@ Build/compile, start a dev server and watches for changes.
 
 ## Uses Starter Kit
 
-This project was scaffolded with [Starter Kit @b6c3e2b](https://github.com/ft-interactive/starter-kit/tree/b6c3e2b).
+This project was scaffolded with [Starter Kit @5c74128](https://github.com/ft-interactive/starter-kit/tree/5c74128).
 
 ## Licence
 This software is published by the Financial Times under the [MIT licence](http://opensource.org/licenses/MIT).
@@ -33,8 +33,8 @@ This software is published by the Financial Times under the [MIT licence](http:/
 Please note the MIT licence includes only the software, and does not cover any FT content made available using the software, which is copyright &copy; The Financial Times Limited, all rights reserved. For more information about re-publishing FT content, please contact our [syndication department](http://syndication.ft.com/).
 
 <!-- badge URLs -->
-[circle-url]: https://circleci.com/gh/ft-interactive/trump-paris-agreement-annotator
-[circle-image]: https://circleci.com/gh/ft-interactive/trump-paris-agreement-annotator/tree/master.svg?style=shield
+[circle-url]: https://circleci.com/gh/ft-interactive/trump-first-address
+[circle-image]: https://circleci.com/gh/ft-interactive/trump-first-address/tree/master.svg?style=shield
 
-[devdeps-url]: https://david-dm.org/ft-interactive/trump-paris-agreement-annotator#info=devDependencies
-[devdeps-image]: https://img.shields.io/david/dev/ft-interactive/trump-paris-agreement-annotator.svg?style=flat-square
+[devdeps-url]: https://david-dm.org/ft-interactive/trump-first-address#info=devDependencies
+[devdeps-image]: https://img.shields.io/david/dev/ft-interactive/trump-first-address.svg?style=flat-square
