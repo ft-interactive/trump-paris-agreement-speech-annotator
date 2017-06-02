@@ -1,11 +1,11 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '',
+  id: 'd45d6b6e-4723-11e7-8519-9f94ee97d996',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/federal-reserve-march-meeting-2017 get filled in by the ./configure script
-  url: '',
+  url: 'https://ig.ft.com/trump-paris-agreement-speech-annotator/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
