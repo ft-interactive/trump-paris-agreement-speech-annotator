@@ -9,7 +9,7 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-06-01T23:52:16.000Z'),
 
   headline: 'Donald Trump takes the US out of the Paris climate deal — annotated',
 
